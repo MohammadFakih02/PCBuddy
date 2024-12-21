@@ -1,0 +1,6 @@
+[submodule "pcbuddy-backend"]
+	path = pcbuddy-backend
+	url = https://github.com/MohammadFakih02/pcbuddy-backend
+[submodule "pcbuddy-frontend"]
+	path = pcbuddy-frontend
+	url = https://github.com/MohammadFakih02/pcbuddy-frontend
