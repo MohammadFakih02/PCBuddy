@@ -15,7 +15,8 @@ As a User:
 - I want to view how selected components perform in specific applications or games, so I can make informed decisions.
 - I want to get guided assembly instructions, so I can confidently build my PC step-by-step.
 - I want to purchase parts directly through the website or from trusted third-party stores, so I can complete my build in one place.
-  As an Admin
+
+As an Admin
 - I want to view a list of all users using the app, so I can monitor their activity and manage their accounts.
 - I want to view details of the systems built by users, so I can understand how the app is being used.
 - I want to analyze statistics of the most used PC parts, so I can identify trends and popular components.
