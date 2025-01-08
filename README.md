@@ -21,6 +21,11 @@ As an Admin
 - I want to view details of the systems built by users, so I can understand how the app is being used.
 - I want to analyze statistics of the most used PC parts, so I can identify trends and popular components.
 
+As a Technician:
+- I want to review and provide feedback on builds shared by regular users, so that I can help them optimize their configurations and ensure compatibility.
+- I want to store and update a list of my clients and their builds,so that I can keep track of their system specifications and suggest upgrades or troubleshooting steps when needed.
+- I want to mark specific builds as "For Sale" or "Available for Assembly," so that users looking for ready-made systems can purchase or request custom builds from me.
+
 <br><br>
 <!-- Tech stack -->
 <img src="./readme/title3.svg"/>
