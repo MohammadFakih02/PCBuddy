@@ -10,10 +10,15 @@
 > PCBuddy aims to make building custom PCs effortless by providing a platform that offers tailored part recommendations, assembly guidance, and performance insights. We believe in simplifying the PC-building process for enthusiasts and beginners alike by making it intuitive, informed, and accessible.
 
 ### User Stories
-- As a user, I want to specify my budget and performance needs, so I can receive component recommendations that fit my requirements.
-- As a user, I want to view how selected components perform in specific applications or games, so I can make informed decisions.
-- As a user, I want to get guided assembly instructions, so I can confidently build my PC step-by-step.
-- As a user, I want to purchase parts directly through the website or from trusted third-party stores, so I can complete my build in one place.
+As a User:
+- I want to specify my budget and performance needs, so I can receive component recommendations that fit my requirements.
+- I want to view how selected components perform in specific applications or games, so I can make informed decisions.
+- I want to get guided assembly instructions, so I can confidently build my PC step-by-step.
+- I want to purchase parts directly through the website or from trusted third-party stores, so I can complete my build in one place.
+As an Admin
+- I want to be able to view all the users in that are using my app, so I can monitor them.
+- I want to be able to view the current systems in that are currently build in my systems.
+- I want to see the stats of the pc parts that are currently being used, so I can see which parts are the most popular.
 
 <br><br>
 <!-- Tech stack -->
