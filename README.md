@@ -10,10 +10,20 @@
 > PCBuddy aims to make building custom PCs effortless by providing a platform that offers tailored part recommendations, assembly guidance, and performance insights. We believe in simplifying the PC-building process for enthusiasts and beginners alike by making it intuitive, informed, and accessible.
 
 ### User Stories
-- As a user, I want to specify my budget and performance needs, so I can receive component recommendations that fit my requirements.
-- As a user, I want to view how selected components perform in specific applications or games, so I can make informed decisions.
-- As a user, I want to get guided assembly instructions, so I can confidently build my PC step-by-step.
-- As a user, I want to purchase parts directly through the website or from trusted third-party stores, so I can complete my build in one place.
+User
+- I want to specify my budget and performance needs, so I can receive component recommendations that fit my requirements.
+- I want to view how selected components perform in specific applications or games, so I can make informed decisions.
+- I want to get guided assembly instructions, so I can confidently build my PC step-by-step.
+
+Admin
+- I want to view a list of all users using the app, so I can monitor their activity and manage their accounts.
+- I want to view details of the systems built by users, so I can understand how the app is being used.
+- I want to analyze statistics of the most used PC parts, so I can identify trends and popular components.
+
+Technician
+- I want to review and provide feedback on builds shared by regular users, so that I can help them optimize their configurations and ensure compatibility.
+- I want to store and update a list of my clients and their builds,so that I can keep track of their system specifications and suggest upgrades or troubleshooting steps when needed.
+- I want to mark specific builds as "For Sale" or "Available for Assembly," so that users looking for ready-made systems can purchase or request custom builds from me.
 
 <br><br>
 <!-- Tech stack -->
@@ -34,7 +44,7 @@
 
 > We designed PCBuddy using wireframes and mockups, iterating on the design until we reached the ideal layout for easy navigation and a seamless user experience.
 
-- Project Figma design [figma](https://www.figma.com/file/LsuOx5Wnh5YTGSEtrgvz4l/Purrfect-Pals?type=design&node-id=257%3A79&mode=design&t=adzbABt5hbb91ucZ-1)
+- Project Figma design [figma]([https://www.figma.com/file/LsuOx5Wnh5YTGSEtrgvz4l/Purrfect-Pals?type=design&node-id=257%3A79&mode=design&t=adzbABt5hbb91ucZ-1](https://www.figma.com/design/qz9PdCYoHBHLEpSRNtF5rh/PCBuddy?node-id=0-1&t=VoPEKotyFWKVcRa9-1))
 
 
 ### Mockups
