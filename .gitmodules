@@ -4,6 +4,3 @@
 [submodule "pcbuddy-frontend"]
 	path = pcbuddy-frontend
 	url = https://github.com/MohammadFakih02/pcbuddy-frontend
-[submodule "pcbuddy_mobile"]
-	path = pcbuddy_mobile
-	url = https://github.com/MohammadFakih02/pcbuddy_mobile
