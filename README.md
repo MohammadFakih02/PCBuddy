@@ -31,11 +31,11 @@ Technician
 
 ###  PCBuddy is built using the following technologies:
 
-- This project uses the [Flutter app development framework](https://flutter.dev/). Flutter is a cross-platform hybrid app development platform which allows us to use a single codebase for apps on mobile, desktop, and the web.
-- For persistent storage (database), the app uses the [Hive](https://hivedb.dev/) package which allows the app to create a custom storage schema and save it to a local database.
-- To send local push notifications, the app uses the [flutter_local_notifications](https://pub.dev/packages/flutter_local_notifications) package which supports Android, iOS, and macOS.
-  - 🚨 Currently, notifications aren't working on macOS. This is a known issue that we are working to resolve!
-- The app uses the font ["Work Sans"](https://fonts.google.com/specimen/Work+Sans) as its main font, and the design of the app adheres to the material design guidelines.
+- This project uses the [React.js](https://react.dev/) library for the frontend. React is a powerful JavaScript library for building user interfaces, enabling a dynamic and responsive user experience.
+- For persistent storage (database), the app uses [PostgreSQL](https://www.postgresql.org/) a powerful open-source relational database system that allows the app to create a custom storage schema and save it to a scalable database.
+- For the backend, the app is built using [Bun](https://bun.sh/) and [ElysiaJS](https://elysiajs.com/), which provide a fast and efficient server-side environment for handling API requests and business logic.
+- The app uses the fonts Exo 2 and Lato as its main fonts, giving it a modern and professional typographic style. The design of the app adheres to the Material Design guidelines.
+
 
 <br><br>
 <!-- UI UX -->
@@ -59,7 +59,7 @@ Technician
 
 ###  Architecting Data Excellence: Innovative Database Design Strategies:
 
-- Insert ER Diagram here
+<img src="./readme/images/ERD.png"
 
 
 <br><br>
