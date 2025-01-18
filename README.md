@@ -50,7 +50,7 @@
 ### Mockups
 | Home screen  | Recommendation Screen |
 | ---| ---|
-| ![Hero](./readme/images/Hero.png) | ![Form](./readme/images/Recommend_Form.png.png) |
+| ![Hero](./readme/images/Hero.png) | ![Form](./readme/images/Recommend_Form.png) |
 
 <br><br>
 
