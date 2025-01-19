@@ -94,6 +94,68 @@
 
 - This project uses advanced prompt engineering techniques to optimize the interaction with natural language processing models. By skillfully crafting input instructions, we tailor the behavior of the models to achieve precise and efficient language understanding and generation for various tasks and preferences.
 
+   ```js
+    Provide a detailed and step-by-step guide for assembling a PC with the following components:
+    - CPU: ${cpu}
+    - GPU: ${gpu}
+    - RAM: ${ram}
+    - Motherboard: ${motherboard}
+    - PSU: ${psu}
+    - Case: ${pcCase}
+
+    Include:
+    1. Step-by-step instructions with explicit details for each component's installation.
+    2. A list of necessary tools for assembly.
+    3. Cable management tips.
+    4. Common pitfalls and precautions to avoid damage.
+    5. Detailed explanations of terms and processes for beginners.
+
+    Format the response as a JSON object with the following structure:
+    {
+      "tools": ["list", "of", "tools"],
+      "steps": [
+        {
+          "title": "Step 1: Install the CPU",
+          "description": [
+            "1. Open the CPU socket lever on the motherboard.",
+            "2. Carefully align the CPU's gold triangles with the corresponding markings on the socket.",
+            "3. Gently lower the CPU into the socket.",
+            "4. Close the lever securely.",
+            "5. Do not force the CPU in; if it doesn't fit easily, double-check the alignment."
+          ],
+          "images": [],
+          "imagePrompts": []
+        },
+        {
+          "title": "Step 2: Install the CPU Cooler",
+          "description": [
+            "1. Apply a small pea-sized amount of thermal paste to the center of the CPU.",
+            "2. Carefully align the cooler with the CPU and gently lower it into place.",
+            "3. Secure the cooler using the provided mounting hardware."
+          ],
+          "images": [],
+          "imagePrompts": []
+        }
+      ],
+      "cableManagementTips": "Tips for managing cables...",
+      "commonPitfalls": "Common mistakes to avoid..."
+    }
+
+    For each step, generate 2-3 search prompts that are specific to the topic but focus on the **action** being performed. The prompts should:
+    - Describe the action (e.g., "installing a CPU," "connecting power cables").
+    - Include contextual details about the step (e.g., "inside a PC case," "on a motherboard").
+    - Use descriptive terms like "close-up," "step-by-step," or "diagram" to ensure the images are clear and relevant.
+    - Avoid using overly specific component names (e.g., "Intel Core i7 CPU") unless absolutely necessary.
+
+    Example prompts:
+    - "Close-up of installing a CPU on a motherboard inside a PC case"
+    - "Step-by-step diagram of installing RAM on a motherboard"
+    - "Connecting power cables to a motherboard inside a PC case"
+
+    Add these prompts to the "imagePrompts" field for each step.
+    Ensure the response is valid JSON and does not contain any additional text or formatting outside the JSON object.
+    ```
+
 <br><br>
 
 
@@ -112,6 +174,7 @@
   ```sh
   powershell -c "irm bun.sh/install.ps1 | iex"
   ```
+* [postegreSQL](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
 ### Installation
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
