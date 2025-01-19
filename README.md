@@ -218,16 +218,16 @@ _Below is an example of how you can instruct your audience on installing and set
 
 1. Get a free API Key at [Google AI Studio](https://aistudio.google.com/app/apikey)
 2. Get a free API key at [Google Custom Search JSON API](https://developers.google.com/custom-search/v1/overview)
-   git clone [github](https://github.com/MohammadFakih02/PCBuddy)
-3. Install NPM packages in PCBuddy-frontend
+3. git clone [github](https://github.com/MohammadFakih02/PCBuddy)
+4. Install NPM packages in PCBuddy-frontend
    ```sh
    npm install
    ```
-4. Install Bun packages in PCBuddy-backend
+5. Install Bun packages in PCBuddy-backend
    ```sh
    bun install
    ```
-5. make a copy of your .env.example in the backend and name it .env, replace the placeholder with your own data
+6. make a copy of your .env.example in the backend and name it .env, replace the placeholder with your own data
    ```js 
    DATABASE_URL="postgresql://postgres:yourpassword@localhost:5432/PCBuddy?schema=public"
 
@@ -241,11 +241,11 @@ _Below is an example of how you can instruct your audience on installing and set
    GOOGLE_CSE_ID = "ID"
    GOOGLE_API_KEY="key"
    ```
-6. change the backend url in the api.js file in PCBuddy-frontend to match the one you have in the backend:
+7. change the backend url in the api.js file in PCBuddy-frontend to match the one you have in the backend:
    ```js
    const API_BASE_URL = 'http://localhost:yourport';
    ```
-7. npm start in PCBuddy-frontend
-8. For the backend: Bun prisma migrate reset -> bun prisma:seed -> bun run dev
+8. npm start in PCBuddy-frontend
+9. For the backend: Bun prisma migrate reset -> bun prisma:seed -> bun run dev
 
 Now, you should be able to run PCBuddy locally and explore its features.
