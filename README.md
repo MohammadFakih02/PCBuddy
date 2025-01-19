@@ -72,16 +72,17 @@
 ### User Screens
 | Register Sreen  | Login screen |
 | ---| ---|
-| ![Register](./readme/gifs/register.gif.gif) | ![Login](./readme/gifs/login.gif) |
-| Home screen  | Menu Screen | Order Screen | Checkout Screen |
-| ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
-
-### Admin Screens (Web)
-| Login screen  | Register screen |  Landing screen |
-| ---| ---| ---|
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
-| Home screen  | Menu Screen | Order Screen |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| ![Register](./readme/gifs/register.gif) | ![Login](./readme/gifs/login.gif) |
+| Home screen  | Recommend Form |
+| ![Landing](./readme/gifs/home.gif) | ![RecommendForm](./readme/gifs/recommendform.gif) |
+| Recommend Results  | Build Form |
+| ![Landing](./readme/gifs/recommendresults.gif) | ![RecommendForm](./readme/gifs/buildform.gif) |
+| Build Results  | Benchmarks |
+| ![Landing](./readme/gifs/buildresults.gif) | ![RecommendForm](./readme/gifs/benchmark.gif) |
+| Build Guide  | Compare |
+| ![Landing](./readme/gifs/buildguide.gif) | ![RecommendForm](./readme/gifs/compare.gif) |
+| Laptop Assessment  | Profile |
+| ![Landing](./readme/gifs/laptopassessment.gif) | ![RecommendForm](./readme/gifs/profile.gif) |
 
 <br><br>
 
