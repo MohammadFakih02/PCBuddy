@@ -156,6 +156,43 @@
     Ensure the response is valid JSON and does not contain any additional text or formatting outside the JSON object.
     ```
 
+    ```js
+        Given the following user prompt, return a JSON object with the best PC components that match the user's needs while strictly adhering to the budget and prioritizing high-performance CPU and GPU. IMPORTANT: Only use motherboards from the provided list below. Do not suggest motherboards that are not in this list.
+
+    User Prompt: "${prompt}"
+
+    Available Motherboards:
+    ${availableParts.motherboards.map(m => m.name).join(", ")}
+
+    The AI should:
+    1. Stay strictly within the budget range provided by the user.
+    2. Prioritize allocating the majority of the budget to the CPU and GPU to ensure high performance.
+    3. Suggest components that are stronger or more capable than what the user requested, if possible within the budget.
+    4. Suggest a PC build with the following components:
+       - CPU name (prioritize high-performance models)
+       - GPU name (prioritize high-performance models)
+       - RAM name (do not include modules or speed)
+       - PSU name (do not include efficiency)
+       - Case name
+       - HDD name (include capacity in GB)
+       - SSD name (include capacity in GB)
+       - Motherboard name (must be from the Available Motherboards list)
+
+    Return the response in the following format:
+    {
+      "cpu": "name of the CPU",
+      "gpu": "name of the GPU",
+      "ram": "name of the RAM",
+      "psu": "name of the PSU",
+      "case": "name of the case",
+      "hdd": "name of the HDD with capacity in GB",
+      "ssd": "name of the SSD with capacity in GB",
+      "motherboard": "name of the motherboard"
+    }
+
+    Ensure the response is a valid JSON object and does not contain any additional text or explanations.
+    ```
+
 <br><br>
 
 
