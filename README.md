@@ -104,26 +104,48 @@
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
   ```
-
+* bun
+  ```sh
+  powershell -c "irm bun.sh/install.ps1 | iex"
+  ```
 ### Installation
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [example](https://example.com)
-2. Clone the repo
-   git clone [github](https://github.com/your_username_/Project-Name.git)
-3. Install NPM packages
+1. Get a free API Key at [Google AI Studio](https://aistudio.google.com/app/apikey)
+2. Get a free API key at [Google Custom Search JSON API](https://developers.google.com/custom-search/v1/overview)
+   git clone [github](https://github.com/MohammadFakih02/PCBuddy)
+3. Install NPM packages in PCBuddy-frontend
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+4. Install Bun packages in PCBuddy-backend
+   ```sh
+   bun install
    ```
+5. make a copy of your .env.example in the backend and name it .env, replace the placeholder with your own data
+   ```js 
+   DATABASE_URL="postgresql://postgres:yourpassword@localhost:5432/PCBuddy?schema=public"
+
+   JWT_SECRET="supersecret"
+   JWT_ACCESS_EXPIRES_IN="15m"
+   JWT_REFRESH_EXPIRES_IN="7d"
+   NODE_ENV="development"
+   PORT=your_port
+   BACKEND_URL=http://localhost:yourport
+   GEMINI_API_KEY = "key"
+   GOOGLE_CSE_ID = "ID"
+   GOOGLE_API_KEY="key"
+   ```
+6. change the backend url in the api.js file in PCBuddy-frontend to match the one you have in the backend:
+   ```js
+   const API_BASE_URL = 'http://localhost:yourport';
+   ```
+7. npm start in PCBuddy-frontend
+8. For the backend: Bun prisma migrate reset -> bun prisma:seed -> bun run dev
 
 Now, you should be able to run PCBuddy locally and explore its features.
