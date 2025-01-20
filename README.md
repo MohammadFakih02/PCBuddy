@@ -5,9 +5,9 @@
 <!-- project philosophy -->
 <img src="./readme/title2.svg"/>
 
-> An AI-powered website that helps users build custom PCs by recommending parts based on real-time pricing and performance needs.
+> An AI-powered website that helps users build custom PCs by recommending parts based on pricing and performance needs.
 >
-> PCBuddy aims to make building custom PCs effortless by providing a platform that offers tailored part recommendations, assembly guidance, and performance insights. We believe in simplifying the PC-building process for enthusiasts and beginners alike by making it intuitive, informed, and accessible.
+> PCBuddy aims to make building custom PCs effortless by providing a platform that offers custom part recommendations, assembly guidance, and performance insights. We believe in simplifying the PC-building process for enthusiasts and beginners alike by making it straightforward, informed, and accessible.
 
 ### User Stories
 #### User
@@ -17,13 +17,13 @@
 
 #### Admin
 - I want to view a list of all users using the app, so I can monitor their activity and manage their accounts.
-- I want to view details of the systems built by users, so I can understand how the app is being used.
-- I want to analyze statistics of the most used PC parts, so I can identify trends and popular components.
+- I want to ban or unban users, so I can enforce platform policies and maintain a safe environment.
+- I want to see general statistics, such as total users, active users, and popular PC components, to understand platform trends.
 
 #### Technician
-- I want to review and provide feedback on builds shared by regular users, so that I can help them optimize their configurations and ensure compatibility.
-- I want to store and update a list of my clients and their builds,so that I can keep track of their system specifications and suggest upgrades or troubleshooting steps when needed.
-- I want to mark specific builds as "For Sale" or "Available for Assembly," so that users looking for ready-made systems can purchase or request custom builds from me.
+- I want to create and display prebuilt systems, so users can purchase or explore ready-made configurations.
+- I want to chat with users, so I can assist them with building, troubleshooting, or optimizing their PCs.
+- I want to provide feedback on user builds, so I can help ensure compatibility and performance.
 
 <br><br>
 <!-- Tech stack -->
@@ -34,23 +34,23 @@
 - This project uses the [React.js](https://react.dev/) library for the frontend. React is a powerful JavaScript library for building user interfaces, enabling a dynamic and responsive user experience.
 - For persistent storage (database), the app uses [PostgreSQL](https://www.postgresql.org/) a powerful open-source relational database system that allows the app to create a custom storage schema and save it to a scalable database.
 - For the backend, the app is built using [Bun](https://bun.sh/) and [ElysiaJS](https://elysiajs.com/), which provide a fast and efficient server-side environment for handling API requests and business logic.
-- The app uses the fonts Exo 2 and Lato as its main fonts, giving it a modern and professional typographic style. The design of the app adheres to the Material Design guidelines.
-
+- For authentication, I used [jwt](https://elysiajs.com/plugins/jwt).
+- For animations, I used [gsap](https://gsap.com/).
 
 <br><br>
 <!-- UI UX -->
 <img src="./readme/title4.svg"/>
 
 
-> We designed PCBuddy using wireframes and mockups, iterating on the design until we reached the ideal layout for easy navigation and a seamless user experience.
+> I designed PCBuddy using wireframes and mockups, iterating on the design until I reached the ideal layout for easy navigation and a smooth user experience.
 
 - Project Figma design [figma](https://www.figma.com/design/qz9PdCYoHBHLEpSRNtF5rh/PCBuddy?node-id=0-1&t=VoPEKotyFWKVcRa9-1)
 
 
 ### Mockups
-| Home screen  | Recommendation Screen |
+| Home screen  | Benchmarks Screen |
 | ---| ---|
-| ![Hero](./readme/images/Hero.png) | ![Form](./readme/images/Recommend_Form.png) |
+| ![Hero](./readme/images/Hero.png) | ![Form](./readme/images/Benchmarks.png) |
 
 <br><br>
 
@@ -70,19 +70,16 @@
 
 
 ### User Screens
-| Register Sreen  | Login screen |
+| Register Sreen  | Landing Page |
 | ---| ---|
-| ![Register](./readme/gifs/register.gif) | ![Login](./readme/gifs/login.gif) |
-| Home screen  | Recommend Form |
-| ![Landing](./readme/gifs/home.gif) | ![RecommendForm](./readme/gifs/recommendform.gif) |
-| Recommend Results  | Build Form |
-| ![Landing](./readme/gifs/recommendresults.gif) | ![RecommendForm](./readme/gifs/buildform.gif) |
-| Build Results  | Benchmarks |
-| ![Landing](./readme/gifs/buildresults.gif) | ![RecommendForm](./readme/gifs/benchmark.gif) |
-| Build Guide  | Compare |
-| ![Landing](./readme/gifs/buildguide.gif) | ![RecommendForm](./readme/gifs/compare.gif) |
-| Laptop Assessment  | Profile |
-| ![Landing](./readme/gifs/laptopassessment.gif) | ![RecommendForm](./readme/gifs/profile.gif) |
+| ![Register](./readme/gifs/register.gif)  | ![Landing](./readme/gifs/home.gif) |
+| Recommend Form  | Recommend Results |
+| ![RecommendForm](./readme/gifs/recommendform.gif) |![recommendresults](./readme/gifs/recommendresults.gif) |
+| Build Form | Benchmarks |
+|  ![buildform](./readme/gifs/buildform.gif) | ![benchmark](./readme/gifs/benchmark.gif) |
+| Build Guide  | Laptop Assessment |
+| ![buildguides](./readme/gifs/buildguide.gif) | | ![laptops](./readme/gifs/laptopassessment.gif) |
+
 
 <br><br>
 
