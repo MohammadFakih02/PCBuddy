@@ -78,7 +78,7 @@
 | Build Form | Benchmarks |
 |  ![buildform](./readme/gifs/buildform.gif) | ![benchmark](./readme/gifs/benchmark.gif) |
 | Build Guide  | Laptop Assessment |
-| ![buildguides](./readme/gifs/buildguide.gif) | | ![laptops](./readme/gifs/laptopassessment.gif) |
+| ![buildguides](./readme/gifs/buildguide.gif) | ![laptops](./readme/gifs/laptopassessment.gif) |
 
 
 <br><br>
