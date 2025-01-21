@@ -57,7 +57,7 @@
 <!-- Database Design -->
 <img src="./readme/title5.svg"/>
 
-###  Architecting Data Excellence: Innovative Database Design Strategies:
+###  Designing Efficient Databases: A Deep Dive into My ER Diagram:
 
 <img src="./readme/images/ERD.png"/>
 
@@ -92,7 +92,7 @@
 - This project uses advanced prompt engineering techniques to optimize the interaction with natural language processing models. By skillfully crafting input instructions, we tailor the behavior of the models to achieve precise and efficient language understanding and generation for various tasks and preferences.
 - We used Google's gemini 1.5 flash models for their fast response times with accurate responses.
 
-- prompt to return the custom pc build guide and image prompts based on the generated build guide.
+#### prompt to return the custom pc build guide and image prompts based on the generated build guide.
 
    ```js
     Provide a detailed and step-by-step guide for assembling a PC with the following components:
@@ -156,7 +156,7 @@
     Ensure the response is valid JSON and does not contain any additional text or formatting outside the JSON object.
     ```
 
-- prompt to return the recommended pc depending on the user's needs.
+#### prompt to return the recommended pc depending on the user's needs.
 
     ```js
         Given the following user prompt, return a JSON object with the best PC components that match the user's needs while strictly adhering to the budget and prioritizing high-performance CPU and GPU. IMPORTANT: Only use motherboards from the provided list below. Do not suggest motherboards that are not in this list.
@@ -207,7 +207,7 @@
 
 | Assembly Guide  | Performance |
 | ---| ---|
-|<[Assembly Guide]("./readme/images/Aws1.png")|[Performance]("./readme/images/Aws2.png")|
+|[Assembly Guide]("./readme/images/Aws1.png")|[Performance]("./readme/images/Aws2.png")|
 
 
 <br><br>
