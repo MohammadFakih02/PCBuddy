@@ -57,7 +57,7 @@
 <!-- Database Design -->
 <img src="./readme/title5.svg"/>
 
-###  Architecting Data Excellence: Innovative Database Design Strategies:
+###  Designing Efficient Databases: A Look into My ER Diagram:
 
 <img src="./readme/images/ERD.png"/>
 
@@ -207,7 +207,7 @@
 
 | Assembly Guide  | Performance |
 | ---| ---|
-|[Assembly Guide]("./readme/images/Aws1.png")|[Performance]("./readme/images/Aws2.png")|
+|[Assembly Guide](./readme/images/Aws1.png)|[Performance](./readme/images/Aws2.png)|
 
 
 <br><br>
