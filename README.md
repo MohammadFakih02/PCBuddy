@@ -265,7 +265,8 @@ _Below is an example of how you can instruct your audience on installing and set
    ```js
    const API_BASE_URL = 'http://localhost:yourport';
    ```
-8. npm start in PCBuddy-frontend
-9. For the backend: Bun prisma migrate reset -> bun prisma:seed -> bun run dev
+
+8. npm start in pcbuddy-frontend
+9. In pcbuddy-backend: Bun prisma migrate reset -> bun prisma:seed -> bun run dev
 
 Now, you should be able to run PCBuddy locally and explore its features.
