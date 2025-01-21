@@ -207,7 +207,7 @@
 
 | Assembly Guide  | Performance |
 | ---| ---|
-|[Assembly Guide](./readme/images/Aws1.png)|[Performance](./readme/images/Aws2.png)|
+|![Assembly Guide](./readme/images/Aws1.png)|![Performance](./readme/images/Aws2.png)|
 
 
 <br><br>
