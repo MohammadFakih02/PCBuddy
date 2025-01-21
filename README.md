@@ -208,6 +208,8 @@
 | Assembly Guide  | Performance |
 | ---| ---|
 |![Assembly Guide](./readme/images/Aws1.png)|![Performance](./readme/images/Aws2.png)|
+| Compatibility Check  | Laptop Assessment |
+|![Compatibility Check](./readme/images/Aws3.png)|![Laptop Assessment](./readme/images/Aws4.png)|
 
 
 <br><br>
