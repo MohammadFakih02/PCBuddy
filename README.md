@@ -36,6 +36,7 @@
 - For the backend, the app is built using [Bun](https://bun.sh/) and [ElysiaJS](https://elysiajs.com/), which provide a fast and efficient server-side environment for handling API requests and business logic.
 - For authentication, I used [jwt](https://elysiajs.com/plugins/jwt).
 - For animations, I used [gsap](https://gsap.com/).
+- For the custom build guide I [Google Custom Search JSON API](https://developers.google.com/custom-search/v1/overview) to get the images dynamically.
 
 <br><br>
 <!-- UI UX -->
@@ -237,7 +238,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 1. Get a free API Key at [Google AI Studio](https://aistudio.google.com/app/apikey)
 2. Get a free API key at [Google Custom Search JSON API](https://developers.google.com/custom-search/v1/overview)
-3. git clone [github](https://github.com/MohammadFakih02/PCBuddy)
+3. git clone --recurse-submodules https://github.com/MohammadFakih02/PCBuddy
 4. Install NPM packages in PCBuddy-frontend
    ```sh
    npm install
