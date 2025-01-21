@@ -156,7 +156,7 @@
     Ensure the response is valid JSON and does not contain any additional text or formatting outside the JSON object.
     ```
 
-#### prompt to return the recommended pc depending on the user's needs.
+#### prompt to return the recommended pc depending on the users needs.
 
     ```js
         Given the following user prompt, return a JSON object with the best PC components that match the user's needs while strictly adhering to the budget and prioritizing high-performance CPU and GPU. IMPORTANT: Only use motherboards from the provided list below. Do not suggest motherboards that are not in this list.
