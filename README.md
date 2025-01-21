@@ -90,6 +90,9 @@
 ###  Mastering AI Interaction: Unveiling the Power of Prompt Engineering:
 
 - This project uses advanced prompt engineering techniques to optimize the interaction with natural language processing models. By skillfully crafting input instructions, we tailor the behavior of the models to achieve precise and efficient language understanding and generation for various tasks and preferences.
+- We used Google's gemini 1.5 flash models for their fast response times with accurate responses.
+
+- prompt to return the custom pc build guide and image prompts based on the generated build guide.
 
    ```js
     Provide a detailed and step-by-step guide for assembling a PC with the following components:
@@ -153,6 +156,8 @@
     Ensure the response is valid JSON and does not contain any additional text or formatting outside the JSON object.
     ```
 
+- prompt to return the recommended pc depending on the user's needs.
+
     ```js
         Given the following user prompt, return a JSON object with the best PC components that match the user's needs while strictly adhering to the budget and prioritizing high-performance CPU and GPU. IMPORTANT: Only use motherboards from the provided list below. Do not suggest motherboards that are not in this list.
 
@@ -197,11 +202,13 @@
 
 ###  Efficient AI Deployment: Unleashing the Potential with AWS Integration:
 
-- This project leverages AWS deployment strategies to seamlessly integrate and deploy natural language processing models. With a focus on scalability, reliability, and performance, we ensure that AI applications powered by these models deliver robust and responsive solutions for diverse use cases.
+- This project leverages AWS deployment strategies to integrate and deploy natural language processing models. With a focus on scalability, reliability, and performance. The backend server runs on an EC2 instance.
 
-<img src="./readme/images/Aws1.png">
-<br>
-<img src="./readme/images/Aws2.png">
+
+| Assembly Guide  | Performance |
+| ---| ---|
+|<[Assembly Guide]("./readme/images/Aws1.png")|[Performance]("./readme/images/Aws2.png")|
+
 
 <br><br>
 
@@ -224,7 +231,7 @@
 * [postegreSQL](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Below is an example of how you can instruct your audience on installing and setting up your app._
 
 1. Get a free API Key at [Google AI Studio](https://aistudio.google.com/app/apikey)
 2. Get a free API key at [Google Custom Search JSON API](https://developers.google.com/custom-search/v1/overview)
