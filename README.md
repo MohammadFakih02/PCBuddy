@@ -88,9 +88,9 @@
 <!-- Prompt Engineering -->
 <img src="./readme/title7.svg"/>
 
-###  Mastering AI Interaction: Unveiling the Power of Prompt Engineering:
+###  Getting the Most Out of AI: How to ask the right questions through prompt engineering:
 
-- This project uses advanced prompt engineering techniques to optimize the interaction with natural language processing models. By skillfully crafting input instructions, we tailor the behavior of the models to achieve precise and efficient language understanding and generation for various tasks and preferences.
+- This project uses advanced techniques to improve how AI language models respond. By carefully designing input prompts, we ensure the models deliver accurate, relevant, and task-specific results that meet user needs.
 - We used Google's gemini 1.5 flash models for their fast response times with accurate responses.
 
 - prompt to return the custom pc build guide and image prompts based on the generated build guide.
